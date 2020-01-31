@@ -10,7 +10,7 @@
 
 ## 1.1 Creating GraphQL Server
 
-- add(dotenv)
+- config(.env, .babelrc)
 - server.js
   - typeDefs, resolver, dotenv_config, GraphQLServer, port
-- .baberc_config, add(@babel/node, @babel/core, @babel/preset-env)
+- add(dotenv, @babel/node, @babel/core, @babel/preset-env)
