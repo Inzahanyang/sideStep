@@ -37,4 +37,16 @@
 
 #### 2.2 Testing Prisma
 
-- Test CRUD in endpoint
+- Test CRUD at endpoint
+
+#### 2.3 Intergrating Prisma in our Server
+
+- use prisma script(deploy, generate)
+- frontend - GraphQL API Server(prisma) - Database
+
+#### 2.4 Resolvers with Prisma
+
+- add(prisma-client-lib)
+- copy types to models.graphql without @
+- make some User resolvers
+- \$fragment
