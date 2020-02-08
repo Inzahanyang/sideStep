@@ -58,7 +58,8 @@
 ###### User Stories
 
 - [x] Create account
-- [ ] Log in
+- [ ] Request Secret
+- [ ] confirm Secret (Login)
 - [ ] See the feed
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
@@ -75,3 +76,9 @@
 
 - Create Account
 - Query root type must be provided.
+
+#### 3.2 requestSecret Resolver
+
+- Request Secret
+- Make random words (https://www.randomlists.com/)
+- generate secret (utils.js)
