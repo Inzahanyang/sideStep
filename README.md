@@ -57,6 +57,7 @@
 
 ###### User Stories
 
+- [x] Create account
 - [ ] Log in
 - [ ] See the feed
 - [ ] Like / Unlike a photo
@@ -69,3 +70,8 @@
 - [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit the photo(Delete)
+
+#### 3.1 Create Account Resolver
+
+- Create Account
+- Query root type must be provided.
