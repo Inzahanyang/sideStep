@@ -1,6 +1,6 @@
 # SideStep
 
-## 1.Set up
+## 1. Set up
 
 #### 1.0 Setting up the project
 
@@ -50,3 +50,22 @@
 - copy types to models.graphql without @
 - make some User resolvers
 - \$fragment
+
+## 3. GraphQL API
+
+#### 3.0 Planning the API
+
+###### User Stories
+
+- [] Log in
+- [] See the feed
+- [] Like / Unlike a photo
+- [] Comment on a photo
+- [] Search by user
+- [] Search by location
+- [] See user profile
+- [] Follow / Unfollow user
+- [] See the full photo
+- [] Edit my profile
+- [] Upload a photo
+- [] Edit the photo(Delete)
