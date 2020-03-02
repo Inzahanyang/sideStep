@@ -82,3 +82,10 @@
 - Request Secret
 - Make random words (https://www.randomlists.com/)
 - generate secret (utils.js)
+
+#### 3.3 sendMail Function with Nodemailer
+
+- add(nodemailer, nodemailer-sendgrid-transport)
+- use dotenv with path
+- nodemailer(https://nodemailer.com/)
+- sendgrid(https://sendgrid.com/)
