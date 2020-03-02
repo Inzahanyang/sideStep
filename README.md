@@ -58,8 +58,8 @@
 ###### User Stories
 
 - [x] Create account
-- [ ] Request Secret
-- [ ] confirm Secret (Login)
+- [x] Request Secret
+- [x] confirm Secret (Login)
 - [ ] See the feed
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
@@ -89,3 +89,14 @@
 - use dotenv with path
 - nodemailer(https://nodemailer.com/)
 - sendgrid(https://sendgrid.com/)
+
+#### 3.4 Passport JWT part One
+
+- Confirm Secret
+
+#### 3.4 Passport JWT part two
+
+- add(passport, passport-jwt, jsonwebtoken)
+- use passport-jwt http://www.passportjs.org/
+- create passport.js
+- randomKey https://randomkeygen.com/
