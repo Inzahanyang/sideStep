@@ -60,9 +60,8 @@
 - [x] Create account
 - [x] Request Secret
 - [x] confirm Secret (Login)
-- [ ] See the feed
-- [ ] Like / Unlike a photo
-- [ ] Comment on a photo
+- [x] Like / Unlike a photo
+- [x] Comment on a photo
 - [ ] Search by user
 - [ ] Search by location
 - [ ] See user profile
@@ -71,6 +70,7 @@
 - [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit the photo(Delete)
+- [ ] See the feed
 
 #### 3.1 Create Account Resolver
 
@@ -106,3 +106,13 @@
 - fix dotenv(env.js)
 - middleware(passport.authenticate)
 - use context for resolvers
+
+#### 3.7 toggleLike Resolver
+
+- toggleLike resolver
+- use prisma.\$exist return true or false
+- make middlewares.js (isAuthenticated)
+
+#### 3.8 addComment Resolver
+
+- addComment resolver
