@@ -94,14 +94,14 @@
 
 - Confirm Secret
 
-#### 3.4 Passport JWT part two
+#### 3.5 Passport JWT part two
 
 - add(passport, passport-jwt, jsonwebtoken)
 - use passport-jwt http://www.passportjs.org/
 - create passport.js
 - randomKey https://randomkeygen.com/
 
-#### 3.4 Passport JWT part two
+#### 3.6 Passport JWT part two
 
 - fix dotenv(env.js)
 - middleware(passport.authenticate)
