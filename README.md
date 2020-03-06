@@ -62,8 +62,8 @@
 - [x] confirm Secret (Login)
 - [x] Like / Unlike a photo
 - [x] Comment on a photo
-- [ ] Search by user
-- [ ] Search by location
+- [x] Search by user
+- [x] Search by location
 - [ ] See user profile
 - [ ] Follow / Unfollow user
 - [ ] See the full photo
@@ -116,3 +116,8 @@
 #### 3.8 addComment Resolver
 
 - addComment resolver
+
+#### 3.9 searchUser and searchImage resolver
+
+- use Query make searchUser, searchPost
+- use contains, starts_with
