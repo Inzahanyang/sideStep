@@ -64,10 +64,12 @@
 - [x] Comment on a photo
 - [x] Search by user
 - [x] Search by location
-- [ ] See user profile
-- [ ] Follow / Unfollow user
+- [x] Follow user
+- [x] Unfollow user
+- [x] Edit my profile
+- [x] See user profile
+- [ ] See my profile
 - [ ] See the full photo
-- [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit the photo(Delete)
 - [ ] See the feed
@@ -117,7 +119,17 @@
 
 - addComment resolver
 
-#### 3.9 searchUser and searchImage resolver
+#### 3.9 searchUser and searchImage Resolver
 
-- use Query make searchUser, searchPost
+- searchUser, searchPost
 - use contains, starts_with
+
+#### 3.10 follow unfollow Resolver
+
+- prisma.updateUser, data
+- after confirm Secret remove login Secret
+
+#### 3.11 editUser seeUSer Resolver
+
+- isAuthenticated is move to context in server.js
+- editUser, seeUser
