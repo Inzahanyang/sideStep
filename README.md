@@ -68,8 +68,8 @@
 - [x] Unfollow user
 - [x] Edit my profile
 - [x] See user profile
-- [ ] See my profile
-- [ ] See the full photo
+- [x] See my profile
+- [x] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo(Delete)
 - [ ] See the feed
@@ -133,3 +133,12 @@
 
 - isAuthenticated is move to context in server.js
 - editUser, seeUser
+
+#### 3.12 me Resolver + Prisma`s Limitations
+
+- (underscore\_(variable)), doubleunderscore\_\_(arguments)
+
+#### 3.13 See Full Posts
+
+- type change UserProfile (seeUser, me)
+- FullPost: post, comments, likeCount
