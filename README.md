@@ -142,3 +142,8 @@
 
 - type change UserProfile (seeUser, me)
 - FullPost: post, comments, likeCount
+
+#### 3.14 Computed Fields in Prisma
+
+- parent is give to higher resolver`s userinfo
+- fullName resolver can use everywhere beacuse schema.js is merging all resolvers
