@@ -152,3 +152,8 @@
 
 - fullName resolver is move to computed.js
 - amIFollowing, itsMe add to computed.js
+
+#### 3.15 itsMe and amIFollowing Fields part Two
+
+- Debug some errors which is follower_some following_some
+- change name of resolvers (amIFollowing, itsMe => isFollowing, isSelf)
