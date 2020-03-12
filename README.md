@@ -147,3 +147,8 @@
 
 - parent is give to higher resolver`s userinfo
 - fullName resolver can use everywhere beacuse schema.js is merging all resolvers
+
+#### 3.15 itsMe and amIFollowing Fields part One
+
+- fullName resolver is move to computed.js
+- amIFollowing, itsMe add to computed.js
