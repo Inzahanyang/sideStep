@@ -73,6 +73,10 @@
 - [ ] Upload a photo
 - [ ] Edit the photo(Delete)
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private message
+- [ ] Receive message
 
 #### 3.1 Create Account Resolver
 
@@ -153,7 +157,16 @@
 - fullName resolver is move to computed.js
 - amIFollowing, itsMe add to computed.js
 
-#### 3.15 itsMe and amIFollowing Fields part Two
+#### 3.16 itsMe and amIFollowing Fields part Two
 
 - Debug some errors which is follower_some following_some
 - change name of resolvers (amIFollowing, itsMe => isFollowing, isSelf)
+
+#### 3.17 isLiked Computed File
+
+- Post_isLiked resolve add to computed.js
+
+#### 3.18 upload Resolver
+
+- upload (caption, files)
+- files, user add to seeFullPost.js
