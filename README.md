@@ -170,3 +170,8 @@
 
 - upload (caption, files)
 - files, user add to seeFullPost.js
+
+#### 3.19 seeFullPost Refactoring
+
+- createdAt, updatedAt add to all types
+- create computed.js in API_Post folder
