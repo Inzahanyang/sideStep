@@ -70,8 +70,8 @@
 - [x] See user profile
 - [x] See my profile
 - [x] See the full photo
-- [ ] Upload a photo
-- [ ] Edit the photo(Delete)
+- [x] Upload a photo
+- [x] Edit the photo(Delete)
 - [ ] See the feed
 - [ ] See rooms
 - [ ] See room
@@ -175,3 +175,13 @@
 
 - createdAt, updatedAt add to all types
 - create computed.js in API_Post folder
+
+#### 3.20 editPost deletePost Resolvers
+
+- use enum(edit, delete)
+- editPost(id, caption, location, action(edit, delete))
+
+#### 3.21 deletePost Resolver
+
+- use DELETE @relation(name: "SomeOfSome", onDelete: CASCADE) with relation
+- default SET_NULL is better
