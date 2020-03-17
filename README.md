@@ -72,7 +72,7 @@
 - [x] See the full photo
 - [x] Upload a photo
 - [x] Edit the photo(Delete)
-- [ ] See the feed
+- [x] See the feed
 - [ ] See rooms
 - [ ] See room
 - [ ] Send private message
@@ -185,3 +185,8 @@
 
 - use DELETE @relation(name: "SomeOfSome", onDelete: CASCADE) with relation
 - default SET_NULL is better
+
+#### 3.22 seeFeed Resolver
+
+- createdAt, updatedAt add to datamodel.prisma every types
+- prisma deploy if error prisma deploy --force
