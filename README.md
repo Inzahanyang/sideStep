@@ -73,7 +73,7 @@
 - [x] Upload a photo
 - [x] Edit the photo(Delete)
 - [x] See the feed
-- [ ] Send private message
+- [x] Send private message
 - [x] See rooms
 - [ ] See room
 - [ ] Receive message
@@ -194,3 +194,8 @@
 #### 3.23 sendMessage part One
 
 - seeRooms, private message
+
+#### 3.24 sendMessage part Two
+
+- add fragment(ROOM_FRAGMENT)
+- sendMessage resolver
