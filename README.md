@@ -73,9 +73,9 @@
 - [x] Upload a photo
 - [x] Edit the photo(Delete)
 - [x] See the feed
-- [ ] See rooms
-- [ ] See room
 - [ ] Send private message
+- [x] See rooms
+- [ ] See room
 - [ ] Receive message
 
 #### 3.1 Create Account Resolver
@@ -190,3 +190,7 @@
 
 - createdAt, updatedAt add to datamodel.prisma every types
 - prisma deploy if error prisma deploy --force
+
+#### 3.23 sendMessage part One
+
+- seeRooms, private message
