@@ -199,3 +199,9 @@
 
 - add fragment(ROOM_FRAGMENT)
 - sendMessage resolver
+
+#### 3.25 seeRoom Resolver
+
+- avatar add to model in user type and editUser Resolver
+- MESSAGE_FRAGMENT
+- ROOM_FRAGMENT add to seeRooms
