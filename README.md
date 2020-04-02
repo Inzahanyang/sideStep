@@ -76,7 +76,7 @@
 - [x] Send private message
 - [x] See rooms
 - [x] See room
-- [ ] Receive message
+- [x] Receive message
 
 #### 3.1 Create Account Resolver
 
@@ -205,3 +205,19 @@
 - avatar add to model in user type and editUser Resolver
 - MESSAGE_FRAGMENT
 - ROOM_FRAGMENT add to seeRooms
+
+#### 3.26 Introduction to Subscriptions
+
+- easy subscription in prisma
+
+#### 3.27 ~ 3.28 newMessage Subscription part
+
+- resolve return payload
+
+#### 3.29 Conclusions
+
+- need node()
+
+#### 3.30 Kill Fragments
+
+- delete fragment.js
